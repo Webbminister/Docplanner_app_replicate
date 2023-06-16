@@ -6,20 +6,81 @@
 
 body{
    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
-   line-height: 1.4;
+   line-height: 1.5;
    color:#333
 }
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 60px 10%;
+    padding: 1rem 0;
+    width: 90vw;
+}
+header img{
+    position: relative;
+    left: 13.5rem;
+
 }
 .nav_links{
     list-style: none;
 }
 
 .nav_links li{
+    position: relative;
     display: inline-block;
     padding: 10px;
+    right: 68px;
+}
+#career, #dept{
+    color: #ababab;
+}
+.nav_links li a{
+    text-decoration: none;
+    color: hsl(172, 100%, 35%);
+    }
+    .nav_links li a:hover{
+         color: #ababab;
+        }
+
+.section1{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    /* width: 50rem; */
+    height: 50rem;
+    align-items: center;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+}
+.section1 img{
+    align-content: center;
+    width: 50px;
+}
+
+.intro{
+    color: #00b39b;
+    font-size: 30px;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    padding-top: 20px;
+}
+.paragraphs{
+    padding-top: 30px;;
+    width: 100%;
+    padding-right: 200px;
+    padding-left:200px ;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+
+
+}
+
+.para1, .para2{
+    /* background-color: #00b39b; */
+    width: 50%;
+    padding: 10px;
+    color: #ababab;
+    justify-content: left;
 }
