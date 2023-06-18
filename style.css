@@ -18,7 +18,7 @@ header{
 }
 header img{
     position: relative;
-    left: 13.5rem;
+    left: 13.5rem
 
 }
 .nav_links{
@@ -54,7 +54,7 @@ header img{
 }
 .section1 img{
     align-content: center;
-    width: 50px;
+    width: 60px;
 }
 
 .intro{
@@ -84,3 +84,122 @@ header img{
     color: #ababab;
     justify-content: left;
 }
+.section2{
+    display: flex;
+    width: 100%;
+    align-content: center;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin: auto;
+}
+.categories, .categories2, .categories3{
+    position: relative;
+    top: -300px;
+    left: 50px;
+    width: 345px;
+    padding: 30px;
+    margin: 10px;
+    background-color:#00CCB1 ;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 10px;
+}
+.categories p, img, select{
+    padding: 10px;
+
+}
+
+#country, #speciatist_count{
+   border: none; 
+}
+.categories_header{
+    font-size: 40px;
+}
+
+ .bg-color{
+    background-color: #1B2734;
+}
+.bg-color2{
+   background-color: #3D83DF; 
+}
+
+.section3{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 150px;
+    align-items: center;
+    padding: 10px;
+}
+
+.section3logos{
+    position: relative;
+    top: -290px;
+    left: 160px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.section3logos img{
+
+    width: 100px;
+
+}
+
+.section3title{
+    width: 200px;
+    font-size: 20px;
+    position: relative;
+    right: 350px;
+    top: -160px;
+    color:#00CCB1;
+}
+
+.section4{
+    width: 100%;
+    display: flex;
+    background-color:#D0FAF4 ;
+}
+
+.section4header{
+height: 100%;
+width: 700px;
+ padding-left: 100px; 
+padding-top: 20px; 
+}
+
+.section4header > h2{
+    color: #00b39b;
+    width: 300px;
+    padding: 20px;
+}
+.section4header > p{
+    padding: 20px;
+    color: #787A7A;
+}
+.section4header img{
+    position: relative;
+    right: 50px;
+    top: 17px;
+} 
+ .section_4box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.first2_boxes{
+    display: flex;
+
+}
+
+.boxes{
+    margin: 10px;
+    padding: 20px;
+    
+    width: 220px;
+
+    background-color: #fff;
+} 
